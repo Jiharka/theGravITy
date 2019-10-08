@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Form Suite" parallel="classes" thread-count="2">
-	<test name="testForm">
+<suite name="Test Form Suite" parallel="classes" thread-count="4">
+	<test name="testFormValidation">
 		<classes>
+			<class name="com.gravity.NameFiledValidation" />
+			<class name="com.gravity.EmailFiledValidation" />
 			<class name="com.gravity.InvalidDataTest" />
 			<class name="com.gravity.SendValidDataTest" />
 		</classes>

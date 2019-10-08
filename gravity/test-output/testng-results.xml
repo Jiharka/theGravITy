@@ -1,29 +1,446 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="38" passed="38">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="95453" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:44:21 EEST">
+  <suite name="Test Form Suite" duration-ms="43862" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:40 EEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="95453" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:44:21 EEST">
-      <class name="com.gravity.SendValidDataTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="setUp" is-config="true" duration-ms="6250" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:42:52 EEST">
+    <test name="testForm" duration-ms="43862" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:40 EEST">
+      <class name="com.gravity.InvalidDataTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="setUp" is-config="true" duration-ms="11903" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:08 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="instantiatePage" is-config="true" duration-ms="132" started-at="2019-10-08T13:42:52 EEST" finished-at="2019-10-08T13:42:52 EEST">
+        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="instantiatePage" is-config="true" duration-ms="1" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:08 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiatePage -->
-        <test-method status="PASS" signature="validData()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="validData" duration-ms="88979" started-at="2019-10-08T13:42:52 EEST" finished-at="2019-10-08T13:44:21 EEST">
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="800" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:09 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="allEmptyFiledsSend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="allEmptyFiledsSend" duration-ms="3568" started-at="2019-10-08T15:31:09 EEST" finished-at="2019-10-08T15:31:12 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allEmptyFiledsSend -->
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="1000" started-at="2019-10-08T15:31:12 EEST" finished-at="2019-10-08T15:31:13 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="checkboxOtherAndExcellentSend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="checkboxOtherAndExcellentSend" duration-ms="9893" started-at="2019-10-08T15:31:13 EEST" finished-at="2019-10-08T15:31:23 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxOtherAndExcellentSend -->
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="402" started-at="2019-10-08T15:31:23 EEST" finished-at="2019-10-08T15:31:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="emailAgeNameValidButMoodEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="emailAgeNameValidButMoodEmptySend" duration-ms="4126" started-at="2019-10-08T15:31:24 EEST" finished-at="2019-10-08T15:31:28 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailAgeNameValidButMoodEmptySend -->
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="98" started-at="2019-10-08T15:31:28 EEST" finished-at="2019-10-08T15:31:28 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="emailAndAgeValidButOtherFiledsEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="emailAndAgeValidButOtherFiledsEmptySend" duration-ms="2745" started-at="2019-10-08T15:31:28 EEST" finished-at="2019-10-08T15:31:30 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailAndAgeValidButOtherFiledsEmptySend -->
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="126" started-at="2019-10-08T15:31:30 EEST" finished-at="2019-10-08T15:31:31 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="emailValidAndOtherFiledsEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="emailValidAndOtherFiledsEmptySend" duration-ms="2287" started-at="2019-10-08T15:31:31 EEST" finished-at="2019-10-08T15:31:33 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidAndOtherFiledsEmptySend -->
+        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="beforeTestActions" is-config="true" duration-ms="77" started-at="2019-10-08T15:31:33 EEST" finished-at="2019-10-08T15:31:33 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestActions -->
+        <test-method status="PASS" signature="emptyMoodReasonSend()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="emptyMoodReasonSend" duration-ms="3584" started-at="2019-10-08T15:31:33 EEST" finished-at="2019-10-08T15:31:37 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyMoodReasonSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.InvalidDataTest@1552920]" name="tearDown" is-config="true" duration-ms="92" started-at="2019-10-08T15:31:37 EEST" finished-at="2019-10-08T15:31:37 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gravity.InvalidDataTest -->
+      <class name="com.gravity.SendValidDataTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.SendValidDataTest@158fe70]" name="setUp" is-config="true" duration-ms="11028" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:07 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.SendValidDataTest@158fe70]" name="instantiatePage" is-config="true" duration-ms="32" started-at="2019-10-08T15:31:07 EEST" finished-at="2019-10-08T15:31:07 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiatePage -->
+        <test-method status="PASS" signature="validData()[pri:0, instance:com.gravity.SendValidDataTest@158fe70]" name="validData" duration-ms="18419" started-at="2019-10-08T15:31:07 EEST" finished-at="2019-10-08T15:31:25 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="tearDown" is-config="true" duration-ms="29" started-at="2019-10-08T13:44:21 EEST" finished-at="2019-10-08T13:44:21 EEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.SendValidDataTest@158fe70]" name="tearDown" is-config="true" duration-ms="137" started-at="2019-10-08T15:31:25 EEST" finished-at="2019-10-08T15:31:26 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gravity.SendValidDataTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.gravity.NameFiledValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="setUp" is-config="true" duration-ms="11897" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="instantiatePage" is-config="true" duration-ms="1" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiatePage -->
+        <test-method status="PASS" signature="emptyName()[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="emptyName" duration-ms="2465" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyName -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1539" started-at="2019-10-08T15:31:10 EEST" data-provider="validName" finished-at="2019-10-08T15:31:12 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1571" started-at="2019-10-08T15:31:12 EEST" data-provider="validName" finished-at="2019-10-08T15:31:13 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1953" started-at="2019-10-08T15:31:13 EEST" data-provider="validName" finished-at="2019-10-08T15:31:15 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1453" started-at="2019-10-08T15:31:15 EEST" data-provider="validName" finished-at="2019-10-08T15:31:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TESTNAME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1396" started-at="2019-10-08T15:31:17 EEST" data-provider="validName" finished-at="2019-10-08T15:31:18 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TeSTnamE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1625" started-at="2019-10-08T15:31:18 EEST" data-provider="validName" finished-at="2019-10-08T15:31:20 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test name first]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="1267" started-at="2019-10-08T15:31:20 EEST" data-provider="validName" finished-at="2019-10-08T15:31:21 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="2189" started-at="2019-10-08T15:31:21 EEST" data-provider="validName" finished-at="2019-10-08T15:31:23 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thisIs_MaxAllowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="validEmail" duration-ms="2058" started-at="2019-10-08T15:31:23 EEST" data-provider="validName" finished-at="2019-10-08T15:31:25 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Мое Имя]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.NameFiledValidation@101eaf6]" name="tearDown" is-config="true" duration-ms="231" started-at="2019-10-08T15:31:25 EEST" finished-at="2019-10-08T15:31:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gravity.NameFiledValidation -->
+      <class name="com.gravity.EmailFiledValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="setUp" is-config="true" duration-ms="11848" started-at="2019-10-08T15:30:56 EEST" finished-at="2019-10-08T15:31:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="instantiatePage" is-config="true" duration-ms="2" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiatePage -->
+        <test-method status="PASS" signature="emptyEmail()[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="emptyEmail" duration-ms="3402" started-at="2019-10-08T15:31:08 EEST" finished-at="2019-10-08T15:31:11 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="4712" started-at="2019-10-08T15:31:11 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:16 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test test@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="4750" started-at="2019-10-08T15:31:16 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:21 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@ukr ain.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="3361" started-at="2019-10-08T15:31:21 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:24 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="2229" started-at="2019-10-08T15:31:24 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:26 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="1009" started-at="2019-10-08T15:31:26 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:27 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@ukr.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="683" started-at="2019-10-08T15:31:27 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:28 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@ukr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="1380" started-at="2019-10-08T15:31:28 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:29 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@.ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="1092" started-at="2019-10-08T15:31:29 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:30 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test()@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="1356" started-at="2019-10-08T15:31:30 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:32 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[тест@укр.нет]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="invalidEmail" duration-ms="2109" started-at="2019-10-08T15:31:32 EEST" data-provider="invalidEmail" finished-at="2019-10-08T15:31:34 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<script>alert('xxx');</script>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="1296" started-at="2019-10-08T15:31:34 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:35 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="999" started-at="2019-10-08T15:31:35 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:36 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST@UKR.NET]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="742" started-at="2019-10-08T15:31:36 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:37 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123test@ukr123.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="440" started-at="2019-10-08T15:31:37 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:37 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="380" started-at="2019-10-08T15:31:37 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:38 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123@ukr123.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="397" started-at="2019-10-08T15:31:38 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:38 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-test@ukr-aine.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="376" started-at="2019-10-08T15:31:38 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:39 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_test@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="377" started-at="2019-10-08T15:31:39 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:39 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.test@ukr.test.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="444" started-at="2019-10-08T15:31:39 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:39 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!#$%&*+/=?^_`{|}~@ukr.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="validEmail(java.lang.String)[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="validEmail" duration-ms="403" started-at="2019-10-08T15:31:39 EEST" data-provider="validEmail" finished-at="2019-10-08T15:31:40 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   test@ukr.net   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.EmailFiledValidation@7551fb]" name="tearDown" is-config="true" duration-ms="23" started-at="2019-10-08T15:31:40 EEST" finished-at="2019-10-08T15:31:40 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gravity.EmailFiledValidation -->
+    </test> <!-- testForm -->
+  </suite> <!-- Test Form Suite -->
 </testng-results>

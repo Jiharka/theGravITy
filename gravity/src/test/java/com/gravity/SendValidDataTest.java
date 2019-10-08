@@ -6,9 +6,7 @@ import static org.testng.Assert.*;
 import com.gravity.pages.ResponseForm;
 import com.gravity.pages.TestFormPage;
 
-/**
- * Unit test for simple App.
- */
+
 public class SendValidDataTest extends TestBaseSetup {
 	private TestFormPage testForm;
 	private ResponseForm responseForm;

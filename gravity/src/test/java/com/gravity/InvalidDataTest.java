@@ -7,9 +7,6 @@ import org.testng.annotations.Test;
 import com.gravity.pages.TestFormPage;
 import static org.testng.Assert.*;
 
-/**
- * Unit test for simple App.
- */
 
 public class InvalidDataTest extends TestBaseSetup {
 	private TestFormPage testForm;

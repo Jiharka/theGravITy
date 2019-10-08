@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>testForm</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 08 13:17:07 EEST 2019</td>
+<td>Started on:</td><td>Tue Oct 08 15:30:56 EEST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22776 ms)</td>
+<tr><td>Total time:</td><td>43 seconds (43862 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,38 +77,193 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.gravity.InvalidDataTest.allEmptyFiledsSend()'><b>allEmptyFiledsSend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
-<td>1</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>3</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
 <tr>
 <td title='com.gravity.InvalidDataTest.checkboxOtherAndExcellentSend()'><b>checkboxOtherAndExcellentSend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
-<td>4</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>9</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
 <tr>
 <td title='com.gravity.InvalidDataTest.emailAgeNameValidButMoodEmptySend()'><b>emailAgeNameValidButMoodEmptySend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
-<td>2</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>4</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
 <tr>
 <td title='com.gravity.InvalidDataTest.emailAndAgeValidButOtherFiledsEmptySend()'><b>emailAndAgeValidButOtherFiledsEmptySend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
-<td>1</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>2</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
 <tr>
 <td title='com.gravity.InvalidDataTest.emailValidAndOtherFiledsEmptySend()'><b>emailValidAndOtherFiledsEmptySend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
-<td>1</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>2</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.emptyEmail()'><b>emptyEmail</b><br>Test class: com.gravity.EmailFiledValidation</td>
+<td></td>
+<td>3</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
 <tr>
 <td title='com.gravity.InvalidDataTest.emptyMoodReasonSend()'><b>emptyMoodReasonSend</b><br>Test class: com.gravity.InvalidDataTest</td>
 <td></td>
+<td>3</td>
+<td>com.gravity.InvalidDataTest@1552920</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.emptyName()'><b>emptyName</b><br>Test class: com.gravity.NameFiledValidation</td>
+<td></td>
 <td>2</td>
-<td>com.gravity.InvalidDataTest@1a7f733</td></tr>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test test@ukr.net</td>
+<td></td>
+<td>4</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test@ukr ain.net</td>
+<td></td>
+<td>4</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: testukr.net</td>
+<td></td>
+<td>3</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: @ukr.net</td>
+<td></td>
+<td>2</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test@ukr.</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test@ukr</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test@.ukr.net</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test()@ukr.net</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: тест@укр.нет</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.invalidEmail()'><b>invalidEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: <script>alert('xxx');</script></td>
+<td></td>
+<td>2</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
 <tr>
 <td title='com.gravity.SendValidDataTest.validData()'><b>validData</b><br>Test class: com.gravity.SendValidDataTest</td>
 <td></td>
-<td>6</td>
-<td>com.gravity.SendValidDataTest@567e20</td></tr>
+<td>18</td>
+<td>com.gravity.SendValidDataTest@158fe70</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: testname</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: 1234567890</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: !@#$%^&*()</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: TESTNAME</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: TeSTnamE</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: test name first</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: a</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: thisIs_MaxAllowed</td>
+<td></td>
+<td>2</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.NameFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.NameFiledValidation<br>Parameters: Мое Имя</td>
+<td></td>
+<td>2</td>
+<td>com.gravity.NameFiledValidation@101eaf6</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test@ukr.net</td>
+<td></td>
+<td>1</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: TEST@UKR.NET</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: 123test@ukr123.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: 1234567890@ukr.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test123@ukr123.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test-test@ukr-aine.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test_test@ukr.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: test.test@ukr.test.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters: !#$%&*+/=?^_`{|}~@ukr.net</td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
+<tr>
+<td title='com.gravity.EmailFiledValidation.validEmail()'><b>validEmail</b><br>Test class: com.gravity.EmailFiledValidation<br>Parameters:    test@ukr.net   </td>
+<td></td>
+<td>0</td>
+<td>com.gravity.EmailFiledValidation@7551fb</td></tr>
 </table><p>
 </body>
 </html>
