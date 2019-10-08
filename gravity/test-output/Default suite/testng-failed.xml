@@ -6,8 +6,9 @@
       <class name="com.gravity.SendValidDataTest">
         <methods>
           <include name="validData"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="instantiatePage"/>
         </methods>
       </class> <!-- com.gravity.SendValidDataTest -->
     </classes>

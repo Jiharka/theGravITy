@@ -89,27 +89,21 @@ public class TestFormPage extends AbstractPage {
 	}
 
 	public boolean verifyAllFiledsAreEmpty() {
-		Set<String> set = new HashSet<String>() {
-			{
-				add(emailAddress.getAttribute("data-initial-value"));
-				add(age.getAttribute("data-initial-value"));
-				add(name.getAttribute("data-initial-value"));
-				add(otherReasonText.getAttribute("data-initial-value"));
-			}
-		};
+		Set<String> set = new HashSet<String>();
+		set.add(emailAddress.getAttribute("data-initial-value"));
+		set.add(age.getAttribute("data-initial-value"));
+		set.add(name.getAttribute("data-initial-value"));
+		set.add(otherReasonText.getAttribute("data-initial-value"));
 		return (set.stream().filter(e -> !e.isEmpty()).collect(Collectors.toSet()).size()) == 0;
 	}
 
 	public boolean verifyAllCheckboxesAreUnmarked() {
-		Set<String> set = new HashSet<String>() {
-			{
-				add(excellent_checkBox.getAttribute("aria-checked"));
-				add(goodEnough_checkBox.getAttribute("aria-checked"));
-				add(couldBeBetter_checkBox.getAttribute("aria-checked"));
-				add(veryBad_checkBox.getAttribute("aria-checked"));
-				add(other_checkBox.getAttribute("aria-checked"));
-			}
-		};
+		Set<String> set = new HashSet<String>();
+		set.add(excellent_checkBox.getAttribute("aria-checked"));
+		set.add(goodEnough_checkBox.getAttribute("aria-checked"));
+		set.add(couldBeBetter_checkBox.getAttribute("aria-checked"));
+		set.add(veryBad_checkBox.getAttribute("aria-checked"));
+		set.add(other_checkBox.getAttribute("aria-checked"));
 		return set.stream().noneMatch(e -> e.equals("true"));
 	}
 
@@ -124,8 +118,6 @@ public class TestFormPage extends AbstractPage {
 	public boolean ageHasError() {
 		return driver.findElement(By.cssSelector("div[data-item-id='86059121']")).getAttribute("class")
 				.contains("HasError");
-		
-		
 	}
 
 	public String getAgeErrorMsg() {

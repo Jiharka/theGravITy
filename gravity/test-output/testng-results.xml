@@ -1,91 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Form Suite" duration-ms="22776" started-at="2019-10-08T13:17:07 EEST" finished-at="2019-10-08T13:17:30 EEST">
+  <suite name="Default suite" duration-ms="95453" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:44:21 EEST">
     <groups>
     </groups>
-    <test name="testForm" duration-ms="22776" started-at="2019-10-08T13:17:07 EEST" finished-at="2019-10-08T13:17:30 EEST">
-      <class name="com.gravity.InvalidDataTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="setUp" is-config="true" duration-ms="7518" started-at="2019-10-08T13:17:07 EEST" finished-at="2019-10-08T13:17:14 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="instantiatePage" is-config="true" duration-ms="40" started-at="2019-10-08T13:17:14 EEST" finished-at="2019-10-08T13:17:15 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- instantiatePage -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="749" started-at="2019-10-08T13:17:15 EEST" finished-at="2019-10-08T13:17:15 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="allEmptyFiledsSend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="allEmptyFiledsSend" duration-ms="1289" started-at="2019-10-08T13:17:15 EEST" finished-at="2019-10-08T13:17:17 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allEmptyFiledsSend -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="653" started-at="2019-10-08T13:17:17 EEST" finished-at="2019-10-08T13:17:17 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="checkboxOtherAndExcellentSend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="checkboxOtherAndExcellentSend" duration-ms="4665" started-at="2019-10-08T13:17:17 EEST" finished-at="2019-10-08T13:17:22 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxOtherAndExcellentSend -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="57" started-at="2019-10-08T13:17:22 EEST" finished-at="2019-10-08T13:17:22 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="emailAgeNameValidButMoodEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="emailAgeNameValidButMoodEmptySend" duration-ms="2421" started-at="2019-10-08T13:17:22 EEST" finished-at="2019-10-08T13:17:24 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailAgeNameValidButMoodEmptySend -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="63" started-at="2019-10-08T13:17:24 EEST" finished-at="2019-10-08T13:17:24 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="emailAndAgeValidButOtherFiledsEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="emailAndAgeValidButOtherFiledsEmptySend" duration-ms="1634" started-at="2019-10-08T13:17:24 EEST" finished-at="2019-10-08T13:17:26 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailAndAgeValidButOtherFiledsEmptySend -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="38" started-at="2019-10-08T13:17:26 EEST" finished-at="2019-10-08T13:17:26 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="emailValidAndOtherFiledsEmptySend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="emailValidAndOtherFiledsEmptySend" duration-ms="1444" started-at="2019-10-08T13:17:26 EEST" finished-at="2019-10-08T13:17:28 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailValidAndOtherFiledsEmptySend -->
-        <test-method status="PASS" signature="beforeTestActions()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="beforeTestActions" is-config="true" duration-ms="39" started-at="2019-10-08T13:17:28 EEST" finished-at="2019-10-08T13:17:28 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestActions -->
-        <test-method status="PASS" signature="emptyMoodReasonSend()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="emptyMoodReasonSend" duration-ms="2059" started-at="2019-10-08T13:17:28 EEST" finished-at="2019-10-08T13:17:30 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyMoodReasonSend -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.InvalidDataTest@1a7f733]" name="tearDown" is-config="true" duration-ms="27" started-at="2019-10-08T13:17:30 EEST" finished-at="2019-10-08T13:17:30 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.gravity.InvalidDataTest -->
+    <test name="Default test" duration-ms="95453" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:44:21 EEST">
       <class name="com.gravity.SendValidDataTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.SendValidDataTest@567e20]" name="setUp" is-config="true" duration-ms="7776" started-at="2019-10-08T13:17:07 EEST" finished-at="2019-10-08T13:17:15 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="setUp" is-config="true" duration-ms="6250" started-at="2019-10-08T13:42:45 EEST" finished-at="2019-10-08T13:42:52 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.SendValidDataTest@567e20]" name="instantiatePage" is-config="true" duration-ms="11" started-at="2019-10-08T13:17:15 EEST" finished-at="2019-10-08T13:17:15 EEST">
+        <test-method status="PASS" signature="instantiatePage()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="instantiatePage" is-config="true" duration-ms="132" started-at="2019-10-08T13:42:52 EEST" finished-at="2019-10-08T13:42:52 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiatePage -->
-        <test-method status="PASS" signature="validData()[pri:0, instance:com.gravity.SendValidDataTest@567e20]" name="validData" duration-ms="6207" started-at="2019-10-08T13:17:15 EEST" finished-at="2019-10-08T13:17:21 EEST">
+        <test-method status="PASS" signature="validData()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="validData" duration-ms="88979" started-at="2019-10-08T13:42:52 EEST" finished-at="2019-10-08T13:44:21 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.SendValidDataTest@567e20]" name="tearDown" is-config="true" duration-ms="73" started-at="2019-10-08T13:17:21 EEST" finished-at="2019-10-08T13:17:21 EEST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gravity.SendValidDataTest@1fc564b]" name="tearDown" is-config="true" duration-ms="29" started-at="2019-10-08T13:44:21 EEST" finished-at="2019-10-08T13:44:21 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gravity.SendValidDataTest -->
-    </test> <!-- testForm -->
-  </suite> <!-- Test Form Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
