@@ -12,6 +12,6 @@ Required:
 
 1) Download/clone project to your local workspace.
 2) In folder 'selenium tools' run "run_server_standalone.bat". 
-3) Then open cmd/exe -> go to your workspace(where the pom.xml is)-> run maven console with command 'mvn clean test -Dbrowser=CHROME -Dplatform=WINDOWS'
+3) Then open cmd.exe -> go to your workspace (where the pom.xml is)-> run maven console with command 'mvn clean test -Dbrowser=CHROME -Dplatform=WINDOWS'
 
 Tests will run in 4 threads in Chrome browser (now only Chrome browser on Windows OS is availabe)
