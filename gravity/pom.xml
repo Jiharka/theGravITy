@@ -17,14 +17,10 @@
 
 	<dependencies>
 		<!--https://mvnrepository.com/artifact/org.testng/testng -->
-		<!-- <dependency> <groupId>org.testng</groupId> <artifactId>testng</artifactId> 
-			<version>7.0.0</version> <scope>test</scope> </dependency> -->
-
-
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.0.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -40,13 +36,13 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-					<!-- <parallel>methods</parallel> -->
-					<parallel>classes</parallel>
-					<threadCount>10</threadCount>
 					<systemPropertyVariables>
 						<platform>${platform}</platform>
 						<browser>${browser}</browser>
 					</systemPropertyVariables>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 			<plugin>

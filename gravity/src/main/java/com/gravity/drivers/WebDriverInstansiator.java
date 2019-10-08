@@ -14,4 +14,10 @@ public class WebDriverInstansiator {
 	public static WebDriver getDriver() {
 		return webDriver.get();
 	}
+
+	public static void tearDown() {
+		if (webDriver.get() != null) {
+			webDriver.get().quit();
+		}
+	}
 }

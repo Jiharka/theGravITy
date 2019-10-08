@@ -2,8 +2,9 @@ package com.gravity;
 
 import java.net.MalformedURLException;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
 import com.gravity.drivers.WebDriverInstansiator;
 
 public class TestBaseSetup {
@@ -15,6 +16,6 @@ public class TestBaseSetup {
 
 	@AfterClass
 	public static void tearDown() {
-		WebDriverInstansiator.getDriver().quit();
+		WebDriverInstansiator.tearDown();
 	}
 }

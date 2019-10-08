@@ -1,18 +1,25 @@
 package com.gravity;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
 import com.gravity.pages.TestFormPage;
+import static org.testng.Assert.*;
 
 /**
  * Unit test for simple App.
  */
 
 public class InvalidDataTest extends TestBaseSetup {
-	TestFormPage testForm = new TestFormPage();
+	private TestFormPage testForm;
 
-	@Before
+	@BeforeClass
+	private void instantiatePage() {
+		testForm = new TestFormPage();
+	}
+
+	@BeforeMethod
 	public void beforeTestActions() {
 		testForm.refreshPage();
 	}
@@ -108,7 +115,7 @@ public class InvalidDataTest extends TestBaseSetup {
 		assertTrue(testForm.moodHasError());
 		assertEquals("Это обязательный вопрос.", testForm.getMoodErrorMsg());
 	}
-	
+
 	@Test
 	public void checkboxOtherAndExcellentSend() {
 		testForm.enterEmail("test@ukr.net");
@@ -120,7 +127,7 @@ public class InvalidDataTest extends TestBaseSetup {
 		assertTrue(testForm.isTestFormShown());
 		testForm.markCheckBoxExcellent();
 		testForm.clickSubmit();
-		
+
 		assertFalse(testForm.emailHasError());
 		assertEquals("", testForm.getEmailErrorMsg());
 		assertFalse(testForm.ageHasError());
@@ -130,9 +137,9 @@ public class InvalidDataTest extends TestBaseSetup {
 
 		assertTrue(testForm.moodHasError());
 		assertEquals("Это обязательный вопрос.", testForm.getMoodErrorMsg());
-		
+
 		testForm.markCheckBoxOther();
-		
+
 		assertFalse(testForm.emailHasError());
 		assertEquals("", testForm.getEmailErrorMsg());
 		assertFalse(testForm.ageHasError());

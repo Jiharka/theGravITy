@@ -16,9 +16,11 @@ public class AbstractPage {
 
 	public void refreshPage() {
 		driver.navigate().refresh();
+
 		try {
 			driver.switchTo().alert().accept();
 		} catch (NoAlertPresentException e) {
+			// Nothing to do, it is the case when alert does not appear on the page
 		}
 	}
 }
