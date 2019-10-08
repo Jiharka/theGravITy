@@ -2,8 +2,8 @@
 Test task for 'The GravITy Agency'. Automated tests for the Web form- https://goo.gl/forms/t16Uov7ZHXCrB2ZE2
 
 Required:
-- Windowd platform at least
-- Chrome browser at least
+- Windowslatform
+- Chrome browser
 - Java and Maven should be installed and difined to the PATH environment variable: 
      https://warwick.ac.uk/fac/sci/dcs/people/research/csrcbc/teaching/howto/javapath/
      https://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.html
